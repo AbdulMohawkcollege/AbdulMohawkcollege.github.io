@@ -1,0 +1,59 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+    background: url('car1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.light-mode {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: rgba(18, 18, 18, 0.9);
+    color: #ffffff;
+}
+
+.navbar {
+    transition: background-color 0.4s;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#projects, #experience {
+    padding-top: 80px; 
+}
+
+.header-box {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1, header {
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
